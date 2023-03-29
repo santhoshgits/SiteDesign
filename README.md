@@ -17,7 +17,7 @@ The above command will create an environment called 'SiteDesign' and install all
 To activate and load all modules required to run CRD. 
 
 3. conda deactivate.
-To deactivate CRD.
+To deactivate SiteDesign.
 ```
 
 
