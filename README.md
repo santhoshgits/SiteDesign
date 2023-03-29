@@ -4,7 +4,7 @@
 ## Instruction to install CRD
 The algorithm has been implemented in Python-3.9 (Anaconda distribution). It is therefore recommended to install the same version of python in your system to run our code.
 
-Once Python-3.9 is installed, we then have to install additional libraries such as Numba and NumPy. To enable easy installation, A YAML file called environment.yml is provided which will invoke a seprate environments to run CRD safely.
+Once Python-3.9 is installed, we then have to install many additional libraries such as Numba, Tensorflow, AutoDock and NumPy. To enable easy installation, A YAML file called environment.yml is provided which will invoke a seprate environments to run CRD safely.
 
 ****
 **Use the below command to create environments**
