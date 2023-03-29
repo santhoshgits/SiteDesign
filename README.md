@@ -1,7 +1,12 @@
 # CRD (Cognate Receptor Discovery): a De novo Design algorithm for prediction of Cognate Protein Receptors for small molecule ligands.
-## NOTE TO USER: After you clone this repo, please download the associated binding site files from the zenodo (https://zenodo.org/record/7780052), extract it and copy 'CustomDatas' folder in SiteDesign.
+## NOTE TO USER: After you clone this repo, please download the associated binding site files from the zenodo (https://zenodo.org/record/7780052), extract it and copy 'CustomDatas' folder to SiteDesign.
 
+## Instruction to install CRD
+The algorithm has been implemented in Python-3.9 (Anaconda distribution). It is therefore recommended to install the same version of python in your system to run our code.
 
+Once Python-3.9 is installed, we then have to install additional libraries such as Numba and NumPy. To enable easy installation, A YAML file called environment.yml is provided which will invoke a seprate environments to run CRD safely.
+
+****
 **Use the below command to create environments**
 ```
  
