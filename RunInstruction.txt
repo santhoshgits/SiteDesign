@@ -1,0 +1,34 @@
+Improtant Note:
+	CRD source code is tested only on Ubuntu system. Hence it is recommened to run this programe on the specified OS.
+
+Installation instrution
+1) Download and install recent anaconda distribution
+2) In the current directory, you will find YAML file 'environment.yml'. This file contain all the necessary package that are needed to run CRD without any error
+3) Run 'conda env create -f environment.yml'. This create a conda environment to run CRD
+
+4) To Activate SiteDesign, just run 'conda activate SiteDesign'. Thats is it, you are good to go
+
+CRD contains lots of python classes that are called at the appropriate steps. However, to simply the execution, we have provided 3 wrapper python scripts, that needs to be executed sequentially,
+
+STEP-1) python PocketDesignInitiator.py <arg-1> <arg-2> <arg-3>  
+arg-1 --> queryLigand.pdb (eg, ATP.pdb)
+arg-2 --> No.of.Cores to utilize (eg, 4).
+arg-3 --> New Folder Name to store all the results (eg, ATPOutput)
+
+
+STEP-2) python MinMax.py <arg-1>
+arg-1 --> queryLigand.pdb (eg, ATP.pdb)
+Please note down the range
+
+STEP-3) python PocketDesignGenerator.py <arg-1> <arg-2> <arg-3> <arg-4> <arg-5>     
+arg-1 --> queryLigand.pdb (eg, ATP.pdb)
+arg-2 --> No.of.Cores to utilize (eg, 4). We recommed to give a core count greater than 4, so that the entire process will run in parallel.
+arg-3 --> New Folder Name to store all the results (eg, ATPOutput)
+arg-4 --> Min number from MinMax.py
+arg-5 --> Max number from MinMax.py
+
+
+After all steps are executed, go to the directory ('ATPOutput') and look into the folder 'site'
+Folder:site will contain 750 coordinates generated for your query ligand
+
+
