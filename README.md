@@ -61,3 +61,4 @@ Usage: python SiteDesignGenerator.py ATP.pdb 8 ATPOutput 18 25
 5. **Argument-5 -** Max number from MinMax.py
 
 ---
+# After you complete all three steps, please refer to the folder 'site', this will be created inside the Argument-2 folder. The folder 'site' will contain 750 designed sites.
