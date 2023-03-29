@@ -1,5 +1,5 @@
 # CRD (Cognate Receptor Discovery): a De novo Design algorithm for prediction of Cognate Protein Receptors for small molecule ligands.
-## NOTE TO USER: After you clone this repo, please download the associated binding site files from the zenodo (), extract it and copy 'CustomDatas' folder in SiteDesign.
+## NOTE TO USER: After you clone this repo, please download the associated binding site files from the zenodo (https://zenodo.org/record/7780052), extract it and copy 'CustomDatas' folder in SiteDesign.
 
 
 **Use the below command to create environments**
